@@ -11,7 +11,7 @@ if sys.version_info < (2, 7):
     requires.append('argparse')
 
 
-setup(name='pyramid_celery',
+setup(name='praekelt_pyramid_celery',
       version='1.4.0',
       description='Celery integration with pyramid',
       long_description=README + '\n\n' +  CHANGES,
